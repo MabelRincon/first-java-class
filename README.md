@@ -13,4 +13,27 @@ The `Persona` class encapsulates the following attributes:
 
 ## Constructor
 
-The `Persona` class includes a constructor that initializes these attributes when a new `Persona` object is created.
+The `Persona` class includes a constructor that initializes these attributes when a new `Persona` object is created:
+```java
+public Persona(String firstName, String lastName, String idNumber, int birthYear) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.idNumber = idNumber;
+    this.birthYear = birthYear;
+}
+```
+## How to run
+
+- Clone the repository.
+- Compile the Java code.
+- Run the compiled code.
+
+## Feedback and Contributions:
+
+Feedback is welcome! Feel free to open issues or submit pull requests to suggest improvements or report any bugs.
+
+## Author
+
+Mabel Rincon
+
+Thanks to [Yeferson Gaviria](https://github.com/YefGav) for his useful Java Template.
