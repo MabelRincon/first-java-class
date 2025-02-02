@@ -1,8 +1,4 @@
-package dev.yeferson.test_java;
-
-/**
- * Hello world!
- */
+package dev.mabel.myfirstclass;
 public final class App {
     private App() {
     }
