@@ -21,6 +21,21 @@ public class Persona {
                 " y nací en el año " + birthYear + " despues de los dolores.";
             }
 
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getIdNumber() {
+        return idNumber;
+    }
+
+    public int getBirthYear() {
+        return birthYear;
+    }
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
@@ -37,19 +52,4 @@ public class Persona {
         this.birthYear = birthYear;
     }
 
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public String getIdNumber() {
-        return idNumber;
-    }
-
-    public int getBirthYear() {
-        return birthYear;
-    }
 }
