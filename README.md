@@ -27,6 +27,9 @@ public Persona(String firstName, String lastName, String idNumber, int birthYear
 - Clone the repository.
 - Compile the Java code.
 - Run the compiled code.
+  
+![refactor-birthdate](https://github.com/user-attachments/assets/29de06a0-642c-4f00-bf6a-ae06dca5d87e)
+
 
 ## Feedback and Contributions:
 
