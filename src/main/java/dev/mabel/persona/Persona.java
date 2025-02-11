@@ -20,4 +20,36 @@ public class Persona {
                 ", mi número de identidad es " + idNumber +
                 " y nací en el año " + birthYear + " despues de los dolores.";
             }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getIdNumber() {
+        return idNumber;
+    }
+
+    public int getBirthYear() {
+        return birthYear;
+    }
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setIdNumber(String idNumber) {
+        this.idNumber = idNumber;
+    }
+
+    public void setBirthYear(int birthYear) {
+        this.birthYear = birthYear;
+    }
+
 }
